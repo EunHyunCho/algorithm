@@ -1,4 +1,4 @@
-package Programmers.Oct09;
+package Programmers.Level1;
 
 public class Sol12944 {
     public static void main(String[] args) {

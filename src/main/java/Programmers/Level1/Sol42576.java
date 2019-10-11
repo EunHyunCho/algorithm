@@ -1,4 +1,4 @@
-package Programmers.Oct09;
+package Programmers.Level1;
 
 import java.util.Arrays;
 
