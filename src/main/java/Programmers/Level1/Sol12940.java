@@ -15,14 +15,21 @@ import java.util.Arrays;
 public class Sol12940 {
     public static void main(String[] args) {
         Solution12940 solution12940 = new Solution12940();
-        int[] answer = solution12940.solution(1, 1);
-        System.out.println(Arrays.toString(answer));
+        int[] answer = solution12940.solution(43, 2);
+        System.out.println(answer);
     }
 }
 
 class Solution12940 {
     public int[] solution(int n, int m) {
         int[] answer = new int[2];
+
+        if (n > m) {
+            int swap = m;
+            m = n;
+            n = swap;
+        }
+
         for (int i = n; i > 0; i--) {
             if (n % i == 0 && m % i == 0) {
                 answer[0] = i;
