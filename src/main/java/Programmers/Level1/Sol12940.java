@@ -16,7 +16,7 @@ public class Sol12940 {
     public static void main(String[] args) {
         Solution12940 solution12940 = new Solution12940();
         int[] answer = solution12940.solution(43, 2);
-        System.out.println(answer);
+        System.out.println(Arrays.toString(answer));
     }
 }
 
