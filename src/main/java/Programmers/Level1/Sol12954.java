@@ -23,7 +23,7 @@ public class Sol12954 {
         answer[0] = x;
 
         for (int i = 1; i < n; i++) {
-            answer[i] = x + answer[i - 1];
+            answer[i] = (long) x * i;
         }
 
         return answer;
