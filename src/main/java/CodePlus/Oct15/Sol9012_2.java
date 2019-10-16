@@ -20,7 +20,7 @@ package CodePlus.Oct15;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class So19012_2 {
+public class Sol9012_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
